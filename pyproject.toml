@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fluentpython"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Alves <gabriel.alves.monteiro1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notebook = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
